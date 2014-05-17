@@ -6,7 +6,7 @@ use warnings;
 
 use Cwd qw(abs_path);
 use File::chdir;
-use File::Slurp;
+use File::Slurp::Tiny qw(write_file);
 use File::Spec;
 use Test::More 0.98;
 
