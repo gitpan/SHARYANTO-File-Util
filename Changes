@@ -1,5 +1,12 @@
 Revision history for SHARYANTO-File-Util
 
+0.58    2014-11-23 (PERLANCAR)
+
+	- No functional changes.
+
+	- Skip unreadable test when running as root [RT#100497].
+
+
 0.57     2014-05-17 (SHARYANTO)
 
          - No functional changes.

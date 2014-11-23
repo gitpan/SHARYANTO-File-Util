@@ -78,7 +78,7 @@ subtest dir_empty => sub {
     ok(!dir_empty("hasfiles"), "hasfiles");
     ok(!dir_empty("hasdotfiles"), "hasdotfiles");
     ok(!dir_empty("hasdotdirs"), "hasdotdirs");
-    ok(!dir_empty("unreadable"), "unreadable");
+    ok(!dir_empty("unreadable"), "unreadable") if $>;
 };
 
 DONE_TESTING:
